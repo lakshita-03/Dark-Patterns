@@ -1,4 +1,4 @@
-# Detecting Dark Pattern Signals Using Behavioral Analytics in E-Commerce
+# Meta Ads Performance Analytics
 
 <img src="pictures/dark1.png" alt="banner" width="35%"><img src="pictures/dp2.avif" alt="banner" width="35%"> <img src="pictures/dp1.png" alt="banner" width="25%" height="250">  
 
