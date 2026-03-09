@@ -55,12 +55,31 @@ This dataset contains demographic and interest information about users who inter
 ### Data Cleaning and Processing
 Before performing SQL analysis, the raw data was cleaned and prepared using Microsoft Excel Power Query to ensure accuracy, consistency, and usability for further analysis.
 #### 1. ad_events.csv
-
 #### **Raw Data**
-<img src="pictures/ads_uncleaned.png" alt="banner" width="100%">
+<img src="pictures/ad_uncleaned.png" alt="banner" width="100%">
 
 #### Cleaned Data
-<img src="pictures/ads_cleaned.png" alt="banner" width="100%">
+<img src="pictures/ad_cleaned.png" alt="banner" width="100%">
 
+#### 2. ad.csv
+#### **Raw Data**
+<img src="pictures/ads1_un.png" alt="banner" width="100%">
+
+#### Cleaned Data
+<img src="pictures/ads1_c.png" alt="banner" width="100%">
+
+#### 3. campaign.csv
+#### **Raw Data**
+<img src="pictures/camp_c.png" alt="banner" width="100%">
+
+#### Cleaned Data
+<img src="pictures/camp_un.png" alt="banner" width="100%">
+
+#### 4. users.csv
+#### **Raw Data**
+<img src="pictures/users_un.png" alt="banner" width="100%">
+
+#### Cleaned Data
+<img src="pictures/user_clean_1.png" alt="banner" width="100%">
 
 
