@@ -51,7 +51,7 @@ This dataset contains demographic and interest information about users who inter
 * country – user’s country
 * location – city or region of the user
 * interest – user’s primary interest category
-* 
+
 ### Data Cleaning and Processing
 Before performing SQL analysis, the raw data was cleaned and prepared using Microsoft Excel Power Query to ensure accuracy, consistency, and usability for further analysis.
 #### 1. ad_events.csv
