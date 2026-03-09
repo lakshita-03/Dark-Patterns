@@ -2,74 +2,57 @@
 
 <img src="pictures/fb-ad-formats.png" alt="banner" width="60%"> <img src="pictures/meta_ads.webp" alt="banner" width="35%">   
 
-**Dark patterns** in e-commerce are deceptive user interface designs that manipulate shoppers into making unintended purchases or sharing more data, using tactics like false urgency (countdown timers), basket sneaking (adding items to cart), confirm shaming (guilt-tripping opt-outs), subscription traps (hard-to-cancel free trials), hidden costs (drip pricing), and disguised ads, all designed to boost company profits at consumer expense, leading to increased regulatory scrutiny and consumer awareness efforts. 
+Meta Ads are digital advertisements placed across Facebook, Instagram, Messenger, and the Audience Network, allowing businesses to target users based on demographics, interests, and behavior. Formerly known as Facebook Ads, this system uses data-driven, highly customizable ad formats like videos, images, and carousels to increase brand awareness, website traffic, and sales. 
 
-### Table of Contents (CHANGE)
-Project Overview
-Problem Statement & Business Objective
-Dataset Description
-Data Cleaning & Preprocessing
-Exploratory Data Analysis (EDA)
-Funnel & Behavioral Analysis
-Dark Pattern Signal Identification
-SQL-Based Analysis
-Python-Based Behavioral Modeling
-Machine Learning for Abandonment Prediction
-Power BI Dashboards & Visualizations
-Insights & Key Findings
-Ethical UX Recommendations
-Conclusion
+### Project Overview
+This project focuses on analyzing social media advertising campaign performance using SQL and Power BI. The dataset contains information about ad campaigns, individual advertisements, user demographics, and user interaction events such as views and clicks. The objective of the project is to explore how different advertising strategies perform across platforms like Facebook and Instagram. By combining campaign data, advertisement details, and user interaction events, the project aims to uncover insights related to audience targeting, engagement patterns, and campaign effectiveness. The analysis is performed using SQLite for data cleaning and analytical queries, and Power BI for interactive dashboards and visualization of key marketing insights.
 
-### Problem Statement
-- E-commerce platforms are heavily optimized for maximizing conversions and revenue. However, aggressive optimization strategies can unintentionally introduce user experience (UX) friction or manipulative design elements commonly referred to as **dark patterns** that influence user behavior in ways that may reduce trust and long-term customer value.
-Such patterns often manifest as repeated cart interactions, prolonged decision-making without conversion, or frequent abandonment during checkout. While these behaviors do not explicitly prove unethical design, they act as **behavioral risk signals** that warrant investigation.
+### Data Sources
+The [dataset](https://drive.google.com/drive/folders/1kiJFKdE6Lk-k4UlVS50GkrtcMJjnL_w1) used in this project is a simulated digital advertising dataset designed to represent advertising campaigns running on social media platforms such as Facebook and Instagram. The data contains information about ad campaigns, individual ads, user demographics, and user interactions with advertisements.
+The dataset is organized into four CSV files that represent different entities within a marketing campaign ecosystem. These files were imported into SQl, Excel,Power BI and used for data cleaning, SQL analysis, and visualization.
 
-- This project aims to analyze user journey and session-level behavioral data to identify friction indicators that may suggest potential dark pattern risks in an e-commerce environment. By examining funnel drop-offs, cart interactions, session duration, and abandonment behavior, the analysis seeks to quantify how these signals impact conversion performance. The ultimate objective is not to accuse or label design practices, but to provide **data-driven insights** that help businesses balance conversion goals with ethical, user-centric design—supporting improved trust, retention, and sustainable growth.
+#### 1. ad_events.csv
+This file contains user interaction data with advertisements. Each record represents an event triggered by a user when interacting with an ad.
 
-DATASET,CLEAN,EDA,FUNNEL THEN SQL
+* event_id – unique identifier for each event
+* ad_id – identifier linking the event to a specific ad
+* user_id – identifier of the user who interacted with the ad
+* timestamp – time when the event occurred
+* day_of_week – day when the interaction happened
+* time_of_day – categorized time period (morning, afternoon, evening, night)
+* event_type – type of interaction (e.g., view, click, engagement)
+
+#### 2. campaigns.csv
+This dataset contains campaign-level information describing the marketing campaigns under which ads are grouped.
+
+* campaign_id – unique identifier for each campaign
+* campaign_name – name of the campaign
+* start_date – campaign start date
+* end_date – campaign end date
+* duration – total campaign duration
+* total_budget – allocated budget for the campaign
+
+#### 3. ads.csv
+This file provides detailed information about individual advertisements.
+
+* ad_id – unique identifier for each ad
+* campaign_id – identifier linking the ad to its campaign
+* ad_platform – platform where the ad was displayed (Facebook or Instagram)
+* ad_type – type of advertisement (image, video, carousel, etc.)
+* target_gender – gender targeted by the advertisement
+* target_age_group – age group targeted by the ad
+* target_interest – audience interest category used for targeting
+
+#### 4. users.csv
+This dataset contains demographic and interest information about users who interacted with the ads.
+
+* user_id – unique identifier for each user
+* user_gender – gender of the user
+* age – age of the user
+* age_group – categorized age range
+* country – user’s country
+* location – city or region of the user
+* interest – user’s primary interest category
 
 
-### Funnel Definition & Metrics
-#### Funnel Structure
-To analyze user behavior and potential friction signals, the following e-commerce funnel is defined based on user interaction events:
 
-| Funnel Stage      | Event Type         |
-| ----------------- | ------------------ |
-| Product Discovery | `view`             |
-| Intent Formation  | `cart`             |
-| Friction Signal   | `remove_from_cart` |
-| Conversion        | `purchase`         |
-
-The `remove_from_cart` event is treated as a **behavioral friction signal** rather than a funnel stage, as it reflects user hesitation or uncertainty during the decision-making process.
-
-#### Core Metrics Tracked
-**Conversion Metrics**
-
-* View → Cart Conversion Rate
-* Cart → Purchase Conversion Rate
-* Overall Conversion Rate
-* Funnel Drop-off Rates by Stage
-
-**Friction & Dark Pattern Risk Indicators**
-
-* Cart Abandonment Rate
-* Average Cart Removals per Session
-* Rapid Add-to-Cart and Abandonment Percentage
-* Average Session Duration without Purchase
-
-**Session-Level Behavioral Metrics**
-
-* Session Duration
-* Total Events per Session
-* Cart Event Count
-* Remove-from-Cart Event Count
-* Purchase Flag (Binary)
-* Abandonment Flag (Binary)
-
-These metrics enable both high-level funnel analysis and granular session-level behavioral investigation, forming the foundation for SQL aggregation, Python-based pattern analysis, and optional predictive modeling.
-
-------------------------------------------------------------------------------------------------------------------------------
-Meta Ads Performance, Audience & Targeting Effectiveness Analysis
-using SQL & Power BI
-Digital marketing teams need more than surface-level metrics to optimize advertising performance. This project performs an in-depth analysis of Meta advertising data by combining campaign metadata, ad targeting information, user demographics, and event-level interaction data. The objective is to evaluate campaign effectiveness, user engagement patterns, targeting alignment, platform performance, and conversion behavior to identify optimization opportunities and reduce inefficient ad spend.
-  
