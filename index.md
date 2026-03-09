@@ -87,10 +87,11 @@ After data cleaning, the datasets were imported into a SQLite database for relat
 * **ads** – Stores details about individual advertisements, including platform, ad type, and targeting attributes.
 * **users** – Contains demographic information about users who interacted with advertisements.
 * **ad_events** – Records user interactions with ads such as views, clicks, or engagements along with timestamps.
+  
 These tables are connected through unique identifiers:
-* campaign_id links **ads** to **campaigns**
-* ad_id links **ad_events** to **ads**
-* user_id links **ad_events** to **users**
+* 'campaign_id' links **ads** to **campaigns**
+* 'ad_id links' **ad_events** to **ads**
+* 'user_id' links **ad_events** to **users**
 This relational structure enables deeper analysis of campaign performance, audience engagement, and targeting effectiveness.
 
 
