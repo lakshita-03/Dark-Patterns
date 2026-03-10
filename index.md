@@ -100,94 +100,94 @@ SQL was used to perform detailed marketing analytics on the cleaned dataset.
 ### **1. Event Funnel & Engagement Depth Analysis**
 (How users interact with ads across funnel stages)
 ### a. Overall Funnel Distribution
-<img src="pictures/ad_eve_1.png" alt="banner" width="65%">
+<img src="pictures/ad_eve_1.png" alt="banner" width="55%">
 <br>
-<img src="pictures/ad_eve_2.png" alt="banner" width="65%">
+<img src="pictures/ad_eve_2.png" alt="banner" width="55%">
 
 ### b. Unique Users per Funnel Stage
-<img src="pictures/ad_eve_3.png" alt="banner" width="65%">
+<img src="pictures/ad_eve_3.png" alt="banner" width="55%">
 
 ### c. User Drop-Off Analysis (Engagement Depth)
-<img src="pictures/ad_eve_4.png" alt="banner" width="65%">
+<img src="pictures/ad_eve_4.png" alt="banner" width="55%">
 <br>
-<img src="pictures/ad_eve_u.png" alt="banner" width="65%">
+<img src="pictures/ad_eve_u.png" alt="banner" width="55%">
 <br>
-<img src="pictures/ad_eve_u_1.png" alt="banner" width="65%">
+<img src="pictures/ad_eve_u_1.png" alt="banner" width="55%">
 
 ### d. Conversion Depth per Ad
-<img src="pictures/ad_eve_5.png" alt="banner" width="65%">
+<img src="pictures/ad_eve_5.png" alt="banner" width="55%">
 
 ### Overall Insight
 Most users interact with ads at the impression and click stages, but only a small fraction progress to conversion. This indicates significant funnel drop-offs, suggesting that while awareness generation is strong, conversion efficiency can be improved through better targeting, creative optimization, or landing page experience.
 
 ### 2. Campaign-Level Performance & Budget Efficiency
 ### a. Events per Campaign
-<img src="pictures/camp_1.png" alt="banner" width="65%">
-<img src="pictures/camp_2.png" alt="banner" width="65%">
+<img src="pictures/camp_1.png" alt="banner" width="55%">
+<img src="pictures/camp_2.png" alt="banner" width="55%">
 
 ### b. Users Reached per Campaign
-<img src="pictures/camp_3.png" alt="banner" width="65%">
+<img src="pictures/camp_3.png" alt="banner" width="55%">
 
 ### c. Budget Normalization (Events per Budget Unit)
-<img src="pictures/camp_4.png" alt="banner" width="65%">
+<img src="pictures/camp_4.png" alt="banner" width="55%">
 
-<img src="pictures/camp_5_gptexp.png" alt="banner" width="65%">
+<img src="pictures/camp_5_gptexp.png" alt="banner" width="55%">
 
 ### Overall Insight
 Campaign-level comparison of total events and allocated budget reveals variations in engagement efficiency. Some campaigns generate high interaction volumes despite moderate budgets, while others show limited engagement relative to their spending, indicating potential optimization opportunities.
 
 ### 3. Platform Performance (Facebook vs Instagram)
 ### a. Event Volume by Platform
-<img src="pictures/performance_1.png" alt="banner" width="65%">
+<img src="pictures/performance_1.png" alt="banner" width="55%">
 
 ### b. Conversion Rate by Platform
-<img src="pictures/plat_perfor_2.png" alt="banner" width="65%">
+<img src="pictures/plat_perfor_2.png" alt="banner" width="55%">
 
 ### c. Platform and Time Interaction
-<img src="pictures/plat_perfor_3.png" alt="banner" width="65%">
+<img src="pictures/plat_perfor_3.png" alt="banner" width="55%">
 
 ### Overall Insight
 Platform performance analysis shows that Facebook and Instagram differ not only in engagement volume but also in conversion effectiveness and time-based user behavior. While one platform may drive higher interaction volume, the other may deliver stronger conversion rates, highlighting the need for platform-specific targeting and scheduling strategies.
 
 ### 4. Audience & Demographic Performance Analysis
 ### a. Engagement by Age Group
-<img src="pictures/age_ana_1.png" alt="banner" width="65%">
+<img src="pictures/age_ana_1.png" alt="banner" width="55%">
 
 ### b. Conversion by Gender
-<img src="pictures/gender_ana_1.png" alt="banner" width="65%">
+<img src="pictures/gender_ana_1.png" alt="banner" width="55%">
 
 ### c. Country-Level Engagement
-<img src="pictures/country_engag.png" alt="banner" width="65%">
+<img src="pictures/country_engag.png" alt="banner" width="55%">
 
 ### d. Age and Gender Cross-Analysis
-<img src="pictures/age plus gender.png" alt="banner" width="65%">
+<img src="pictures/age plus gender.png" alt="banner" width="55%">
 <br>
-<img src="pictures/age plus gender_2.png" alt="banner" width="65%">
+<img src="pictures/age plus gender_2.png" alt="banner" width="55%">
 
 ### Overall Insight
 Audience and demographic analysis reveals that engagement and conversion behavior varies across age groups, genders, and geographic regions. Cross-segmentation further highlights specific demographic clusters with higher responsiveness, indicating opportunities for more targeted and efficient advertising strategies.
 
 ### 5. Ad Targeting Alignment Analysis
 ### a. Target Interest vs Actual Engagement Volume
-<img src="pictures/target_interest_1.png" alt="banner" width="65%">
+<img src="pictures/target_interest_1.png" alt="banner" width="55%">
 <br>
-<img src="pictures/target_interst_2.png" alt="banner" width="65%">
+<img src="pictures/target_interst_2.png" alt="banner" width="55%">
 
 ### b. Mismatch Detection Between Target Interest and User Interest
-<img src="pictures/mismatch.png" alt="banner" width="65%">
+<img src="pictures/mismatch.png" alt="banner" width="55%">
 
 ### Overall Insight
 Ad targeting alignment analysis reveals that while certain interest-based segments perform well, several ads engage users outside their intended interest categories. This mismatch indicates opportunities to refine targeting strategies and improve relevance, thereby reducing inefficient ad spend.
 
 ### 6. Time-Based & Behavioral Patterns
 ### a. Day-of-Week Engagement
-<img src="pictures/day_of engage.png" alt="banner" width="65%">
+<img src="pictures/day_of engage.png" alt="banner" width="55%">
 
 ### b. Time-of-Day Engagement Analysis
-<img src="pictures/day_of engage 2.png" alt="banner" width="65%">
+<img src="pictures/day_of engage 2.png" alt="banner" width="55%">
 
 ### c. Conversion Timing Analysis
-<img src="pictures/time  of day analysis.png" alt="banner" width="65%">
+<img src="pictures/time  of day analysis.png" alt="banner" width="55%">
 
 ### Overall Insight
 Time-based behavioral analysis indicates that both engagement and conversion activity vary significantly across days of the week and times of day. Identifying peak responsiveness periods enables more efficient ad scheduling and improved campaign performance.
