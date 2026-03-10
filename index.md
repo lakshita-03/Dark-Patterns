@@ -117,9 +117,21 @@ SQL was used to perform detailed marketing analytics on the cleaned dataset.
 
 ### 2. Unique Users per Funnel Stage
 <img src="pictures/ad_eve_3.png" alt="banner" width="75%">
+
 #### Insights
 - If impressions have many users but conversions have very few, it indicates low funnel efficiency
 - Helps assess whether campaigns are driving breadth vs meaningful engagement
+
+### 3. User Drop-Off Analysis (Engagement Depth)
+<img src="pictures/ad_eve_4.png" alt="banner" width="75%">
+<br>
+<img src="pictures/ad_eve_u.png" alt="banner" width="75%">
+<br>
+<img src="pictures/ad_eve_u_1.png" alt="banner" width="75%">
+
+#### Insights
+- A large gap between impressions and conversions indicates significant funnel drop-off
+- This highlights areas where optimization is required (creative, targeting, landing page)
 
 The analysis focused on several key areas:
 * Campaign performance analysis
