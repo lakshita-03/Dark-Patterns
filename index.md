@@ -117,12 +117,24 @@ SQL was used to perform detailed marketing analytics on the cleaned dataset.
 ### d. Conversion Depth per Ad
 <img src="pictures/ad_eve_5.png" alt="banner" width="65%">
 
-#### Overall Insight
+### Overall Insight
 Most users interact with ads at the impression and click stages, but only a small fraction progress to conversion. This indicates significant funnel drop-offs, suggesting that while awareness generation is strong, conversion efficiency can be improved through better targeting, creative optimization, or landing page experience.
 
 ### 2. Campaign-Level Performance & Budget Efficiency
 ### a. Events per Campaign
 <img src="pictures/camp_1.png" alt="banner" width="65%">
+<img src="pictures/camp_2.png" alt="banner" width="65%">
+
+### b. Users Reached per Campaign
+<img src="pictures/camp_3.png" alt="banner" width="65%">
+
+### c. Budget Normalization (Events per Budget Unit)
+<img src="pictures/camp_4.png" alt="banner" width="65%">
+<br>
+<img src="pictures/camp_5.png" alt="banner" width="65%">
+
+
+
 
 
 The analysis focused on several key areas:
