@@ -220,7 +220,7 @@ Combining SQL-based analysis with Power BI visualizations allowed identification
 
 Overall, the project demonstrates how combining structured SQL analysis with interactive data visualization can provide meaningful insights for improving digital marketing strategies and campaign decision-making.
 
-
+[Github](https://github.com/lakshita-03/Meta-Ads)
 
 
 
