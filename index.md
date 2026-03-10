@@ -139,10 +139,34 @@ Campaign-level comparison of total events and allocated budget reveals variation
 ### 3. Platform Performance (Facebook vs Instagram)
 ### a. Event Volume by Platform
 <img src="pictures/performance_1.png" alt="banner" width="65%">
-<img src="pictures/plat_perfor_2.png" alt="banner" width="65%">
 
 ### b. Conversion Rate by Platform
+<img src="pictures/plat_perfor_2.png" alt="banner" width="65%">
+
+### c. Platform and Time Interaction
 <img src="pictures/plat_perfor_3.png" alt="banner" width="65%">
+
+### Overall Insight
+Platform performance analysis shows that Facebook and Instagram differ not only in engagement volume but also in conversion effectiveness and time-based user behavior. While one platform may drive higher interaction volume, the other may deliver stronger conversion rates, highlighting the need for platform-specific targeting and scheduling strategies.
+
+### 4. Audience & Demographic Performance Analysis
+### a. Engagement by Age Group
+<img src="pictures/age_ana_1.png" alt="banner" width="65%">
+
+### b. Conversion by Gender
+<img src="pictures/gender_ana_1.png" alt="banner" width="65%">
+
+### c. Country-Level Engagement
+<img src="pictures/country_engag.png" alt="banner" width="65%">
+
+### d. Age and Gender Cross-Analysis
+<img src="pictures/age plus gender.png" alt="banner" width="65>%"
+<img src="pictures/age plus gender_2.png" alt="banner" width="65>%"
+
+### Overall Insight
+Audience and demographic analysis reveals that engagement and conversion behavior varies across age groups, genders, and geographic regions. Cross-segmentation further highlights specific demographic clusters with higher responsiveness, indicating opportunities for more targeted and efficient advertising strategies.
+
+
 
 
 The analysis focused on several key areas:
