@@ -136,6 +136,10 @@ Most users interact with ads at the impression and click stages, but only a smal
 ### Overall Insight
 Campaign-level comparison of total events and allocated budget reveals variations in engagement efficiency. Some campaigns generate high interaction volumes despite moderate budgets, while others show limited engagement relative to their spending, indicating potential optimization opportunities.
 
+### 3. Platform Performance (Facebook vs Instagram)
+### a. Event Volume by Platform
+<img src="pictures/camp_1.png" alt="banner" width="65%">
+
 
 The analysis focused on several key areas:
 * Campaign performance analysis
