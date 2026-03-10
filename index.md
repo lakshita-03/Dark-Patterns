@@ -56,7 +56,7 @@ This dataset contains demographic and interest information about users who inter
 Before performing SQL analysis, the raw data was cleaned and prepared using Microsoft Excel Power Query to ensure accuracy, consistency, and usability for further analysis.
 ### 1. ad_events.csv
 #### **Raw Data**
-<img src="pictures/ads1_un.png" alt="banner" width="45%">
+<img src="pictures/ads1_un.png" alt="banner" width="70%">
 
 #### Cleaned Data
 <img src="pictures/ads1_c.png" alt="banner" width="45%">
