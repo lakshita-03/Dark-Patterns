@@ -187,7 +187,7 @@ Ad targeting alignment analysis reveals that while certain interest-based segmen
 <img src="pictures/day_of engage 2.png" alt="banner" width="65%">
 
 ### c. Conversion Timing Analysis
-<img src="pictures/time of day analysis.png" alt="banner" width="65%">
+<img src="pictures/time  of day analysis.png" alt="banner" width="65%">
 
 ### Overall Insight
 Time-based behavioral analysis indicates that both engagement and conversion activity vary significantly across days of the week and times of day. Identifying peak responsiveness periods enables more efficient ad scheduling and improved campaign performance.
