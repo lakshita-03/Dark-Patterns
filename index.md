@@ -54,27 +54,27 @@ This dataset contains demographic and interest information about users who inter
 
 ## Data Cleaning and Processing
 Before performing SQL analysis, the raw data was cleaned and prepared using Microsoft Excel Power Query to ensure accuracy, consistency, and usability for further analysis.
-#### 1. ad_events.csv
+### 1. ad_events.csv
 #### **Raw Data**
 <img src="pictures/ads1_un.png" alt="banner" width="100%">
 
 #### Cleaned Data
 <img src="pictures/ads1_c.png" alt="banner" width="100%">
 
-#### 2. ad.csv
+### 2. ad.csv
 <img src="pictures/ads_uncleaned.png" alt="banner" width="100%">
 
 #### Cleaned Data
 <img src="pictures/ads_cleaned.png" alt="banner" width="100%">
 
-#### 3. campaign.csv
+### 3. campaign.csv
 #### **Raw Data**
 <img src="pictures/camp_c.png" alt="banner" width="100%">
 
 #### Cleaned Data
 <img src="pictures/camp_un.png" alt="banner" width="100%">
 
-#### 4. users.csv
+### 4. users.csv
 #### **Raw Data**
 <img src="pictures/users_un.png" alt="banner" width="100%">
 
@@ -89,10 +89,41 @@ After data cleaning, the datasets were imported into a SQLite database for relat
 * **ad_events** – Records user interactions with ads such as views, clicks, or engagements along with timestamps.
   
 These tables are connected through unique identifiers:
-* 'campaign_id' links **ads** to **campaigns**
-* 'ad_id links' **ad_events** to **ads**
-* 'user_id' links **ad_events** to **users**
+* **campaign_id** links **ads** to **campaigns**
+* **ad_id links** **ad_events** to **ads**
+* **user_id** links **ad_events** to **users**
 This relational structure enables deeper analysis of campaign performance, audience engagement, and targeting effectiveness.
+
+## SQL Analysis
+SQL was used to perform detailed marketing analytics on the cleaned dataset.
+### **1. Event Funnel & Engagement Depth Analysis**
+(How users interact with ads across funnel stages)
+1. Overall Funnel Distribution
+<img src="pictures/ad_eve_1.png" alt="banner" width="100%">
+<br>
+<img src="pictures/ad_eve_2.png" alt="banner" width="100%">
+
+- Groups all ad interaction records by event_type
+- Counts how many times each type of user action occurred
+- Treats each row as one user interaction event
+- Different stages of the advertising funnel, such as:
+    - impression
+    - click
+    - conversion
+#### Insights
+- A large gap between impressions and conversions indicates significant funnel drop-off
+- This highlights areas where optimization is required (creative, targeting, landing page)
+
+The analysis focused on several key areas:
+* Campaign performance analysis
+* Platform-wise ad engagement
+* Audience demographic insights
+* Ad targeting effectiveness
+* User interaction patterns
+* Detection of inefficient ads and engagement gaps
+
+These queries helped uncover meaningful insights about how different campaigns and advertisements perform across platforms and audience segments.
+
 
 
 
